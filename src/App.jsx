@@ -20,8 +20,7 @@ class App extends Component {
       name: obj.name,
       number: obj.number,
     };
-    /* console.log(contacts.name);
-    console.log(obj.name); */
+
     if (
       this.state.contacts.find(
         contact => contacts.name.toLowerCase() === contact.name.toLowerCase(),
