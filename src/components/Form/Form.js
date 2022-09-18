@@ -30,7 +30,6 @@ export class Form extends Component {
     this.resetForm();
   };
 
-  //очистка формы
   resetForm = () => {
     this.setState({ name: '', number: '' });
   };
